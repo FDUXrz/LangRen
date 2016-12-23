@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
 
         startButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View c){
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, RoomActivity.class);
                 startActivity(intent);
             }
         });
